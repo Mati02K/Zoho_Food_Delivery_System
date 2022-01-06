@@ -4,22 +4,22 @@ package mathesh;
 
 public class Bookings {
 
-    private int bookingid;
-    private int cust_id;
-    private char restaurant;
-    private char destination;
-    private int starttime;
-    private int endtime;
+    private final int bookingid;
+    private final int cust_id;
+    private final char restaurant;
+    private final char destination;
+    private final String starttime;
+    private final String endtime;
     private DeliveryPerson deliveryPerson;
-    private int delivery_amount;
+    private int delivery_amount; // Delivery charge for each booking
 
-    public Bookings(int bookingid, int cust_id, char restaurant, char destination, int starttime) {
+    public Bookings(int bookingid, int cust_id, char restaurant, char destination, String starttime) {
         this.bookingid = bookingid;
         this.cust_id = cust_id;
         this.restaurant = restaurant;
         this.destination = destination;
         this.starttime = starttime;
-        this.endtime = starttime + 30;  // No need to set end time as it is mentioned end time will be 30 min from start.
+        this.endtime = HandleTime.returnEndTime(starttime);  // No need to set end time as it is mentioned end time will be 30 min from start.
     }
 
     public int getBookingid() {
@@ -34,7 +34,7 @@ public class Bookings {
         return destination;
     }
 
-    public int getStarttime() {
+    public String getStarttime() {
         return starttime;
     }
 
@@ -42,7 +42,7 @@ public class Bookings {
         return cust_id;
     }
 
-    public int getEndtime() {
+    public String getEndtime() {
         return endtime;
     }
 
