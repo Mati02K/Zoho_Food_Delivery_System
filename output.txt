@@ -1,10 +1,10 @@
-Asssigned Delivery Executive : DE1
-Asssigned Delivery Executive : DE2
-Asssigned Delivery Executive : DE2
-Asssigned Delivery Executive : DE3
+Assigned Delivery Executive : DE1
+Assigned Delivery Executive : DE2
+Assigned Delivery Executive : DE2
+Assigned Delivery Executive : DE3
 -------------------------------------------------------------------------------------------------------------------------
 DELIVERY HISTORY
-TRIP     EXECUTIVE     RESTATURANT     DESTINATION POINT     ORDERS     PICK_UP_TIME     DELIVERY TIME     DELIVERY CHARGE 
+TRIP     EXECUTIVE     RESTAURANT     DESTINATION POINT     ORDERS     PICK_UP_TIME     DELIVERY TIME     DELIVERY CHARGE 
 1          DE1             A                  D                1           09:15            09:45              50
 2          DE2             B                  A                2           10:25            10:55              55
 3          DE3             D                  C                1           10:50            11:20              50

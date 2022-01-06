@@ -205,7 +205,7 @@ public class BookFoodDelivery {
         }
         deliveryPerson.updateCurrentBooking(bookingdetails.getStarttime()); // Updating the delivery person
         deliveryPerson.setBookingdetails(bookingdetails); // Set the current Booking to the whole list of booking details of the delivery executive
-        return "Asssigned Delivery Executive : " + deliveryPerson.getDelivery_executive_name();
+        return "Assigned Delivery Executive : " + deliveryPerson.getDelivery_executive_name();
 
     }
 
@@ -221,7 +221,7 @@ public class BookFoodDelivery {
         invoice.append("DELIVERY HISTORY");
         invoice.append("\n");
         invoice.append("TRIP " + "    " + "EXECUTIVE " +  "    " +
-                "RESTATURANT " +  "    " + "DESTINATION POINT " +  "    " +
+                "RESTAURANT " +  "    " + "DESTINATION POINT " +  "    " +
                 "ORDERS " +  "    " + "PICK_UP_TIME " +  "    " +
                 "DELIVERY TIME " +  "    " + "DELIVERY CHARGE ");
         invoice.append("\n");
