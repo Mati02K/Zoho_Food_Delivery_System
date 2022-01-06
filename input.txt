@@ -1,0 +1,21 @@
+Input:
+1
+A
+D
+9.00 AM
+Input:
+2
+B
+A
+10.00 AM
+Input:
+3
+B
+A
+10.10 AM
+Input:
+3
+D
+C
+10.35 AM
+GET OUTPUT

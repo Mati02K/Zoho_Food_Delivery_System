@@ -1,6 +1,8 @@
 package mathesh;
 
-// This class consists details about the Bookings Made
+/*
+    This is the Bookings Class which consists all the properties needed for Booking class.
+ */
 
 public class Bookings {
 
@@ -22,10 +24,6 @@ public class Bookings {
         this.endtime = HandleTime.returnEndTime(starttime);  // No need to set end time as it is mentioned end time will be 30 min from start.
     }
 
-    public int getBookingid() {
-        return bookingid;
-    }
-
     public char getRestaurant() {
         return restaurant;
     }
@@ -36,10 +34,6 @@ public class Bookings {
 
     public String getStarttime() {
         return starttime;
-    }
-
-    public int getCust_id() {
-        return cust_id;
     }
 
     public String getEndtime() {
